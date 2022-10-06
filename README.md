@@ -58,5 +58,5 @@ https://documenter.getpostman.com/view/23300733/2s83zfQ5cU
 
 ***NOTE***
 
-For its perfect operation, when a writer is created, it is necessary to record for each writer, his image with the same name as the 'name' field and a flag of his country with the same name as the 'country' field. These images should be saved in the /backend/public/images folder
+For its perfect operation, when a writer is created, it is necessary to record for each writer, his image with the same name as the 'nombre' field and a flag of his country with the same name as the 'pais' field. These images should be saved in the /backend/public/images folder
 
