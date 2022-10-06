@@ -1,0 +1,50 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Página Principal
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+     <img
+          alt="writers"
+          src="http://localhost:8080/images/writers.jpg"
+        />
+    <ion-card-header>
+      
+      <ion-card-title>Escritores del Siglo XX</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <strong>Sus autores más destacados.
+      Un repaso por la literatura del siglo pasado</strong>
+      
+    </ion-card-content>
+  </ion-card>
+
+  <br>
+  <br>
+
+    <strong>Elige una opción</strong>
+    <br>
+    <br>
+    
+    <ion-button expand="block" (click)="gotoCreateWriters()">Crear Escritor</ion-button>
+    <br>
+    <ion-button expand="block" (click)="gotoListWriters()">Listar Escritores</ion-button>
+    <br>
+    <ion-button expand="block" color="danger" (click)="deleteAllWriters()">Borrar todos los Escritores</ion-button>
+   
+
+  
+
+  
+</ion-content>

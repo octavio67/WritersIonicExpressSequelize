@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Lista Escritores</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list inset>
+    <ion-item *ngFor="let writer of writers">
+      <ion-label>
+        
+        <img
+          alt="WriterImg"
+          src="http://localhost:8080/images/{{writer.nombre}}.jpg"
+          width="80"
+          height="80"
+        />
+        <h3>{{writer.id}}. {{writer.nombre}}</h3>
+        <h3>{{writer.fechas}}</h3>
+
+        <img
+          alt="Country"
+          src="http://localhost:8080/images/{{writer.pais}}.gif"
+          width="40"
+          height="25"
+        />
+
+        <ion-buttons class="myButtons">
+          <ion-button color="danger" (click)="deleteWriter(writer.id)">
+            <ion-icon slot="icon-only" name="trash-outline"></ion-icon>
+          </ion-button>
+          <ion-button color="secondary" (click)="updateWriters(writer.id)">
+            <ion-icon slot="icon-only" name="create-outline"></ion-icon>
+          </ion-button>
+        </ion-buttons>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
