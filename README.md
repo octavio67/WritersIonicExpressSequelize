@@ -55,3 +55,8 @@ https://documenter.getpostman.com/view/23300733/2s83zfQ5cU
 
 ![postman](https://user-images.githubusercontent.com/57419892/194326294-13c16440-3d8b-4e0d-b41f-b4a1ee948cc4.JPG)
 
+
+***NOTE***
+
+For its perfect operation, when a writer is created, it is necessary to record for each writer, his image with the same name as the 'name' field and a flag of his country with the same name as the 'country' field. These images should be saved in the /backend/public/images folder
+
