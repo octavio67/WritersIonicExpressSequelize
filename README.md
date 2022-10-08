@@ -27,7 +27,8 @@ This project demonstrates the operation of a simple full stack app using Ionic, 
 - cd existing_folder
 
 - git clone --branch master https://github.com/octavio67/WritersIonicExpressSequelize.git
-them you get a 'WritersIonicExpressSequelize' folder that contains 'backend' and 'frontend' folders
+
+- them you get a 'WritersIonicExpressSequelize' folder that contains 'backend' and 'frontend' folders
 
 - Import db_writers_writers.sql from your favourite Database Management System.
 
