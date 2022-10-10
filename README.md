@@ -30,6 +30,8 @@ This project demonstrates the operation of a simple full stack app using Ionic, 
 
 - them you get a 'WritersIonicExpressSequelize' folder that contains 'backend' and 'frontend' folders
 
+- Create Database Schema: db_writers
+
 - Import db_writers_writers.sql from your favourite Database Management System.
 
 - Run from your 'backend' folder: npm install (install all dependencies needed)
